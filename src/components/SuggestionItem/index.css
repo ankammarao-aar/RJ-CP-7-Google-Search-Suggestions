@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.items {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 14px;
+  margin: 6px;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.arrow {
+  height: 16px;
+}
